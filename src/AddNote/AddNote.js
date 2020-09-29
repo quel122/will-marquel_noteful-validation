@@ -1,6 +1,7 @@
 import React from 'react';
 import ApiContext from '../ApiContext'
 
+
 export default class AddNote extends React.Component {
 
     static contextType = ApiContext
@@ -34,5 +35,4 @@ export default class AddNote extends React.Component {
             </form >
         );
     }
-
 }

@@ -26,7 +26,4 @@ export default class AddFolder extends React.Component {
             </form>
         );
     }
-
-    
-
 }
